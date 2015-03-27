@@ -1,0 +1,65 @@
+<form class="form-horizontal" role="form" method="post" id="attributeForm">
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">Декларант</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="declarant" name="declarant" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="fbr_address" class="col-sm-2 control-label">Юр.Адрес</label>
+    <div class="col-sm-6">
+      <textarea class="form-control" id="" name="address1" rows="3" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" ></textarea>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="fbr_address" class="col-sm-2 control-label">Факт.Адрес</label>
+    <div class="col-sm-6">
+      <textarea class="form-control" id="" name="address2" rows="3" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" ></textarea>
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">Телефон</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="tel" name="tel" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">Факс</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="fax" name="fax" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">E-mail</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="email" name="email" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">ИНН</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="inn" name="inn" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <div class="col-sm-offset-2 col-sm-6">
+      <button type="submit" class="btn btn-default">Сохранить</button>
+    </div>
+  </div>
+
+</form><script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script>
+// валидация формы
+    $(document).ready(function() {
+        $('#attributeForm').bootstrapValidator();
+    });
+  </script>
+     <script src="/js/bootstrapValidator.min.js"></script>

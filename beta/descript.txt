@@ -1,0 +1,21 @@
+# type:label:name:id:placeholder
+text:Декларант:declarant:declarant
+textarea:Юр.Адрес:address1
+textarea:Факт.Адрес:address2
+text:Телефон:tel:tel
+text:Факс:fax:fax
+text:E-mail:email:email
+text:ИНН:inn:inn
+
+text:ОГРН:ogrn:ogrn
+textarea:Зарегистрирован:regist:regist
+text:ФИО в им. падеже:fio:fio:Иванов Иван Иванович
+text:Серийный выпуск:series:series
+text:Контракт №:contract:contract
+textarea:Продукция:product:product
+text:Код ТН ВЭД ТС:tscode:tscode
+textarea:Изготовитель:maker:maker
+textarea:Филиалы:filials:filials
+
+submit:Сохранить:submit
+
