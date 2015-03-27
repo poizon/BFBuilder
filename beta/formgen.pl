@@ -1,5 +1,6 @@
 #!/usr/bin/perl -w
 use common::sense;
+
 use constant {
      CLOSE_FORM   => '</form>'
 };

@@ -49,6 +49,69 @@
   </div>
 
   <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">ОГРН</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="ogrn" name="ogrn" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="fbr_address" class="col-sm-2 control-label">Зарегистрирован</label>
+    <div class="col-sm-6">
+      <textarea class="form-control" id="regist" name="regist" rows="3" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" ></textarea>
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">ФИО в им. падеже</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="fio" name="fio" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">Серийный выпуск</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="series" name="series" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">Контракт №</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="contract" name="contract" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="fbr_address" class="col-sm-2 control-label">Продукция</label>
+    <div class="col-sm-6">
+      <textarea class="form-control" id="product" name="product" rows="3" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" ></textarea>
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
+    <label for="fbr_name" class="col-sm-2 control-label">Код ТН ВЭД ТС</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" id="tscode" name="tscode" placeholder="" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="fbr_address" class="col-sm-2 control-label">Изготовитель</label>
+    <div class="col-sm-6">
+      <textarea class="form-control" id="maker" name="maker" rows="3" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" ></textarea>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="fbr_address" class="col-sm-2 control-label">Филиалы</label>
+    <div class="col-sm-6">
+      <textarea class="form-control" id="filials" name="filials" rows="3" data-bv-notempty="true" data-bv-notempty-message="Обязательно к заполнению!" ></textarea>
+    </div>
+  </div>
+
+  <div class="form-group form-group-sm">
     <div class="col-sm-offset-2 col-sm-6">
       <button type="submit" class="btn btn-default">Сохранить</button>
     </div>
